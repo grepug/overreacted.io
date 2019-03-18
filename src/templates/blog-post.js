@@ -16,7 +16,7 @@ import {
     loadFontsForCode,
 } from '../utils/i18n';
 
-const GITHUB_USERNAME = 'gaearon';
+const GITHUB_USERNAME = 'grepug';
 const GITHUB_REPO_NAME = 'proactive.style';
 const systemFont = `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
