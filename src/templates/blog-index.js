@@ -38,7 +38,7 @@ class BlogIndexTemplate extends React.Component {
                         </Panel>
                     )}
 
-                    {posts.map(({ node }) => {
+                    {(posts || []).map(({ node }) => {
                         const title =
                             get(node, 'frontmatter.title') || node.fields.slug;
                         return (
